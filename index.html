@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!-- ruda font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"
+      async
+    ></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme : {
+          fontFamily : {
+            'russo' : ["Russo One", "sans-serif"],
+            'ruda' : ["Ruda", 'sans-serif']
+          }
+        }
+      };
+    </script>
+    <title>Cemilan ringan</title>
+  </head>
+  <body class="font-ruda">
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-russo text-red-400"
+            >Cemilan Ringan</span
+          >
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <a href="https://wa.me/6282143040493"
+            type="button"
+            class="text-white bg-red-400 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Kontak
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-white dark:bg-gray-900 mt-24">
+      <div
+        class="max-w-screen-xl px-4 py-8 gap-8 lg:py-16 flex flex-col-reverse lg:flex-row mx-auto"
+      >
+        <div class="mr-auto place-self-center">
+          <h1
+            class="lg:max-w-2xl mb-4 text-2xl tracking-tight leading-none md:text-3xl xl:text-5xl dark:text-white font-russo"
+          >
+            <span class="text-red-400">Cemilan Favorit</span> untuk Segala Suasana
+          </h1>
+          <p
+            class="lg:max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          >
+          Cemilan favorit yang cocok untuk segala suasana! Nikmati kelezatan dan kerenyahan dalam setiap gigitan, baik saat bersantai, bekerja, atau berkumpul bersama teman.
+          </p>
+        </div>
+        <div class="lg:mt-0 lg:flex">
+          <div class="bg-[url('/img/hero.jpg')] bg-cover bg-center rounded-md min-w-[300px] max-w-[450px] h-[300px] mx-auto"
+          ></div>
+          <!-- <img
+            src="/img/hero.jpg"
+            alt="mockup"
+          /> -->
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-white dark:bg-gray-900">
+        <!-- <p
+          class="text-center mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white"
+        >
+          Tentang
+        </p> -->
+        <div
+          class="max-w-screen-xl px-4 py-8 gap-8 lg:py-16 flex flex-col-reverse lg:flex-row mx-auto"
+        >
+          <div class="lg:mt-0">
+            <div class="bg-[url('/img/about.jpg')] bg-cover bg-center rounded-md min-w-[300px] max-w-[450px] h-[300px] mx-auto"
+          ></div>
+            <!-- <img
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+              alt="mockup"
+            /> -->
+          </div>
+          <div class="mr-auto place-self-center lg:col-span-7">
+            <h1
+              class="lg:max-w-2xl mb-4 text-2xl tracking-tight leading-none md:text-3xl xl:text-5xl dark:text-white font-russo"
+            >
+            Jangan lewatkan <span class="text-red-400">Kelezatan</span> camilan ringan kami!
+            </h1>
+            <p
+              class="lg:max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+            >
+            Segera beli sekarang dan nikmati sensasi gurih dan renyahnya di setiap gigitan. Ayo, manjakan lidah Anda dengan camilan favorit untuk segala suasana
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <p
+          class="text-center mb-4 text-2xl tracking-tight leading-none md:text-3xl xl:text-5xl dark:text-white font-russo"
+        >
+          Produk <span class="text-red-400">Terlaris</span> Kami Nih!
+        </p>
+
+        <section
+          class="flex flex-wrap justify-center gap-5 md:gap-16 lg:gap-20 mt-10 lg:mt-32 w-fit m-auto px-10 md:px-32"
+        >
+          <div
+            class="flex lg:w-fit w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <!-- <div class="bg-[url('/img/produk1.jpg')] bg-center bg-cover max-w-sm h-[250px] ">
+              
+            </div> -->
+            <img
+              class="rounded-l-lg max-h-[200px]"
+              src="/img/produk1.jpg"
+              alt=""
+            />
+            <div class="p-5 text-center m-auto">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                MACJOS MIE LIDI
+              </h5>
+              <p class="mb-3 font-normal dark:text-gray-400 text-red-400">
+                Rasa Original
+              </p>
+              <!-- <p
+                class="mb-3 dark:text-gray-400 text-xl font-bold text-blue-700"
+              >
+                Rp 15.000
+              </p> -->
+            </div>
+          </div>
+          <div
+            class="flex lg:w-fit w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <!-- <div class="bg-[url('/img/produk1.jpg')] bg-center bg-cover max-w-sm h-[250px] ">
+              
+            </div> -->
+            <img
+              class="rounded-l-lg max-h-[200px]"
+              src="/img/produk2.jpg"
+              alt=""
+            />
+            <div class="p-5 text-center m-auto">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                MACJOS BASRENG
+              </h5>
+              <p class="mb-3 font-normal dark:text-gray-400 text-red-400">
+                Pedas Level 5
+              </p>
+              <!-- <p
+                class="mb-3 dark:text-gray-400 text-xl font-bold text-blue-700"
+              >
+                Rp 15.000
+              </p> -->
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800 mt-20">
+      <div class="mx-auto max-w-screen-xl text-center">
+        <a
+          href="#"
+          class="flex justify-center items-center text-xl font-semibold text-red-400 dark:text-white font-angkor "
+        >
+          <!-- <img
+            src="/img/dolaycut-logo.png"
+            class="h-8 w-8"
+            alt="Flowbite Logo"
+          /> -->
+          Camilan Ringan
+        </a>
+        <div class="flex flex-col md:flex-row justify-center gap-0 md:gap-5">
+          <p class="my-6 text-gray-500 dark:text-gray-400">
+            Nomor HP : 0821-4304-0493
+          </p>
+          <!-- <p class="my-6 text-gray-500 dark:text-gray-400">
+            Email : ahmadfadoli763@gmail.com
+          </p>
+          <a href="https://maps.app.goo.gl/3668Eegi2fzr8an58" 
+          class="my-6 text-gray-500 dark:text-gray-400">
+            Alamat : <span class="hover:underline">Pengantigan, Banyuwangi</span>
+          </a> -->
+        </div>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >©2024 <a href="https://muda-pedia.vercel.app/" target="_blank" class="hover:underline">Mudapedia™</a>. All
+          Rights Reserved.</span
+        >
+        <a href="https://muda-pedia.vercel.app/" target="_blank">
+          <img src="/img/mudapedia logo no bg.png" class="w-20 mx-auto" alt="mudapedia">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
